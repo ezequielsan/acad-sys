@@ -1,31 +1,37 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
 *.pyc
 *.pyo
 *.pyd
-*.pdb
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
-pip-wheel-metadata/
-*.manifest
-*.spec
 
-# Virtual environments
+# Virtualenv
 venv/
-env/
-ENV/
 .venv/
-.python-version
+ENV/
+
+# VSCode
+.vscode/
+
+# Logs
+debug.log
+logs/
+!logs/.gitkeep
+
+
+# System
+.DS_Store
+Thumbs.db
 
 # Pytest
 .cache/
-.pytest_cache/
 
-# mypy
+# MyPy
 .mypy_cache/
+.dmypy.json
+
+# Coverage
+.coverage
+htmlcov/
+
+# Others
+*.swp
